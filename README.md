@@ -8,7 +8,7 @@ For comparision purpose, we implemented FEM+CG and ROM+CG pipelines.
 *Created by: Yuxuan Huang*
 
 Required python packages:
-numpy, scipy, pandas, matplotlib, **NGSolve**(for mesh initialization and FEM solver)
+numpy, scipy, pandas, matplotlib, **NGSolve**(for mesh initialization and FEM solver)\\
 To download NGSolve: https://ngsolve.org/downloads
 
 ### - Data folder
