@@ -20,7 +20,9 @@ This folder contains test data that stores the FEM and ROM evaluation results fo
 ### - Letter-images folder
 
 This folder contains images for true source terms, final time observations, and reconstructed final results via FEM/ROM.
+<br>
 The source terms are all letters.
+<br>
 Naming rule: <1/mesh_stepsize>_<letter or pattern name>_<type(source or observation or (reconstuciton)method>
 
 ### - Utils folder
@@ -34,5 +36,7 @@ This folder contains some animated processes (forward and backward).
 ### - non-Letters folder
 
 This folder contains images for true source terms, final time observations, and reconstructed final results via FEM/ROM.
+<br>
 The source terms are all non-letter patterns.
+<br>
 Naming rule: <pattern name>_<type(source or observation or (reconstuciton)method><1/mesh_stepsize>
