@@ -37,8 +37,23 @@ This folder contains all the utility functions for the numerical methods, input 
 This folder contains some animated processes (forward and backward).
 
 ### - non-Letters folder
-This folder contains images for true source terms, final time observations, and reconstructed final results via FEM/ROM.
+This folder contains primitive and processed images for true source terms, final time observations, and reconstructed final results via FEM/ROM.
 <br>
 The source terms are all non-letter patterns.
 <br>
 *Naming rule: [pattern name]\_[type(source or observation or (reconstuciton)method][1/mesh_stepsize]*
+
+## Notebooks:
+#### Single_Run
+- this is the main testing notebook.
+- conducts a single reconstruction process for the final observation data of a "unknown" source pattern using FEM+CG and/or ROM+CG.
+#### Runtime_plot
+- plots the runtime and/or iteration comparison for the FEM+CG and ROM+CG method.
+#### Comparision_Error_plots
+- plots L-curve graphs for FEM and ROM results and their differences in L_2 errors in terms of different hyper parameters.
+#### Gen_Data_tocsv
+- conducts a series of reconstruction trials over *one pattern* under different hyper parameter combination and organized the results into one csv file.
+#### Prototype_[something]
+- prototype notebooks to verify pipeline feasibility and conduct miscellaneous tests.
+
+
