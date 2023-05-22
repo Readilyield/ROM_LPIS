@@ -23,7 +23,7 @@ This folder contains images for true source terms, final time observations, and 
 <br>
 The source terms are all letters.
 <br>
-Naming rule: <1/mesh_stepsize>_<letter or pattern name>_<type(source or observation or (reconstuciton)method>
+Naming rule: <1/mesh_stepsize>\_<letter or pattern name>\_<type(source or observation or (reconstuciton)method>
 
 ### - Utils folder
 
@@ -39,4 +39,4 @@ This folder contains images for true source terms, final time observations, and 
 <br>
 The source terms are all non-letter patterns.
 <br>
-Naming rule: <pattern name>_<type(source or observation or (reconstuciton)method><1/mesh_stepsize>
+Naming rule: <pattern name>\_<type(source or observation or (reconstuciton)method><1/mesh_stepsize>
